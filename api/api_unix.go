@@ -11,7 +11,7 @@ package api
 // #cgo linux LDFLAGS: -lodbc
 // #cgo freebsd LDFLAGS: -L /usr/local/lib -lodbc
 // #cgo freebsd CFLAGS: -I/usr/local/include
-// #include <sql.h>
+/* #include <sql.h> */
 // #include <sqlext.h>
 // #include <stdint.h>
 /*
